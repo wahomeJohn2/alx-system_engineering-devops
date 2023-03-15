@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -oE '^[/*/]$' /etc/passwd 
+grep -E '^([^:]*:){5}/home/' ~/Desktop/e.txt | cut -d: -f1
